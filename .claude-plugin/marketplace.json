@@ -1,0 +1,158 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "shopify-development-toolkit",
+  "owner": {
+    "name": "Noox Theme",
+    "url": "https://github.com/yourname/shopify-development-toolkit"
+  },
+  "metadata": {
+    "description": "Complete Shopify development toolkit with specialized agents for theme development, app development, and Polaris UI. Includes 16 expert agents, comprehensive skills, and battle-tested patterns.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "shopify-liquid-specialist",
+      "source": "yourname/shopify-development-toolkit/shopify-theme-development",
+      "description": "Shopify Liquid templating expert for sections, snippets, and templates. Generates pure Liquid code following Shopify best practices without framework dependencies.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "liquid", "theme", "development", "templating"]
+    },
+    {
+      "name": "shopify-section-builder",
+      "source": "yourname/shopify-development-toolkit/shopify-theme-development",
+      "description": "Specialized in creating Shopify 2.0 sections with complete schemas, settings, and blocks. Follows theme development best practices.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "sections", "schema", "theme"]
+    },
+    {
+      "name": "shopify-global-settings",
+      "source": "yourname/shopify-development-toolkit/shopify-theme-development",
+      "description": "Manages Shopify theme global settings (settings_schema.json). Expert in theme customization options, color schemes, typography, and layout settings.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "settings", "theme", "customization"]
+    },
+    {
+      "name": "shopify-snippet-library",
+      "source": "yourname/shopify-development-toolkit/shopify-theme-development",
+      "description": "Creates reusable Liquid snippets with proper documentation. Builds snippet library for product cards, buttons, forms, and common UI elements.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "snippets", "liquid", "reusable"]
+    },
+    {
+      "name": "shopify-translation-manager",
+      "source": "yourname/shopify-development-toolkit/shopify-theme-development",
+      "description": "Manages Shopify theme translations and locale files. Handles multi-language support, translation keys, and internationalization workflows.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "i18n", "translations", "locales"]
+    },
+    {
+      "name": "shopify-app-orchestrator",
+      "source": "yourname/shopify-development-toolkit/shopify-app-development",
+      "description": "Multi-agent task coordinator for full-stack Shopify app features spanning database, API, and UI layers. Coordinates complex workflows and ensures proper integration.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "app", "orchestrator", "full-stack", "coordination"]
+    },
+    {
+      "name": "shopify-polaris-ui",
+      "source": "yourname/shopify-development-toolkit/shopify-app-development",
+      "description": "Polaris Web Components expert for building Shopify app UIs. Ensures proper component usage, accessibility, and design patterns for React-based Shopify apps.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "polaris", "ui", "react", "components"]
+    },
+    {
+      "name": "shopify-database-specialist",
+      "source": "yourname/shopify-development-toolkit/shopify-app-development",
+      "description": "Database and Prisma expert for Shopify apps. Handles schema design, migrations, query optimization, and data modeling for app backend.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "database", "prisma", "schema", "migrations"]
+    },
+    {
+      "name": "shopify-api-integration",
+      "source": "yourname/shopify-development-toolkit/shopify-app-development",
+      "description": "Shopify Admin GraphQL API expert. Handles API integration, queries, mutations, rate limiting, webhooks, and metafield operations for Shopify apps.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "api", "graphql", "admin-api", "webhooks"]
+    },
+    {
+      "name": "shopify-design-system",
+      "source": "yourname/shopify-development-toolkit/shopify-app-development",
+      "description": "Design system compliance expert for Shopify apps. Ensures consistent use of Polaris tokens, color schemes, typography, and spacing.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "design-system", "polaris", "ui", "consistency"]
+    },
+    {
+      "name": "shopify-pattern-enforcer",
+      "source": "yourname/shopify-development-toolkit/shopify-app-development",
+      "description": "Pattern consistency checker for Shopify app codebases. Identifies similar patterns and ensures fixes are applied consistently across the entire codebase.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "patterns", "consistency", "refactoring", "quality"]
+    },
+    {
+      "name": "polaris-component-expert",
+      "source": "yourname/shopify-development-toolkit/shopify-polaris",
+      "description": "Polaris Web Components expert with access to full component library. Provides guidance on using actions, forms, feedback, media, structure, and text components.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["polaris", "components", "shopify", "web-components", "ui"]
+    },
+    {
+      "name": "polaris-forms-specialist",
+      "source": "yourname/shopify-development-toolkit/shopify-polaris",
+      "description": "Expert in Polaris form components. Specializes in text fields, checkboxes, selects, file uploads, and form validation patterns.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["polaris", "forms", "validation", "input", "shopify"]
+    },
+    {
+      "name": "polaris-layout-specialist",
+      "source": "yourname/shopify-development-toolkit/shopify-polaris",
+      "description": "Expert in Polaris layout and structure components. Specializes in pages, cards, grids, stacks, and responsive layouts.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["polaris", "layout", "structure", "responsive", "shopify"]
+    },
+    {
+      "name": "polaris-patterns-expert",
+      "source": "yourname/shopify-development-toolkit/shopify-polaris",
+      "description": "Expert in Polaris composition patterns. Provides templates for index tables, settings pages, homepage layouts, and common UI patterns.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["polaris", "patterns", "templates", "compositions", "shopify"]
+    },
+    {
+      "name": "polaris-app-bridge-specialist",
+      "source": "yourname/shopify-development-toolkit/shopify-polaris",
+      "description": "Expert in Shopify App Bridge components. Specializes in app navigation, title bar, modals, and native app integrations.",
+      "version": "1.0.0",
+      "author": "Noox Theme",
+      "license": "MIT",
+      "tags": ["shopify", "app-bridge", "polaris", "navigation", "native"]
+    }
+  ]
+}
