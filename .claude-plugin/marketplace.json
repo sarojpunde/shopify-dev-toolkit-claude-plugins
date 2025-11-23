@@ -7,12 +7,14 @@
   },
   "metadata": {
     "description": "Complete Shopify development toolkit with specialized agents for theme development, app development, and Polaris UI. Includes 16 expert agents, comprehensive skills, and battle-tested patterns.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "pluginRoot": "sarojpunde/shopify-dev-toolkit-claude-plugins"
   },
+  "strict": false,
   "plugins": [
     {
       "name": "shopify-liquid-specialist",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-theme-development",
+      "source": "shopify-theme-development",
       "description": "Shopify Liquid templating expert for sections, snippets, and templates. Generates pure Liquid code following Shopify best practices without framework dependencies.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -21,7 +23,7 @@
     },
     {
       "name": "shopify-section-builder",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-theme-development",
+      "source": "shopify-theme-development",
       "description": "Specialized in creating Shopify 2.0 sections with complete schemas, settings, and blocks. Follows theme development best practices.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -30,7 +32,7 @@
     },
     {
       "name": "shopify-global-settings",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-theme-development",
+      "source": "shopify-theme-development",
       "description": "Manages Shopify theme global settings (settings_schema.json). Expert in theme customization options, color schemes, typography, and layout settings.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -39,7 +41,7 @@
     },
     {
       "name": "shopify-snippet-library",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-theme-development",
+      "source": "shopify-theme-development",
       "description": "Creates reusable Liquid snippets with proper documentation. Builds snippet library for product cards, buttons, forms, and common UI elements.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -48,7 +50,7 @@
     },
     {
       "name": "shopify-translation-manager",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-theme-development",
+      "source": "shopify-theme-development",
       "description": "Manages Shopify theme translations and locale files. Handles multi-language support, translation keys, and internationalization workflows.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -57,7 +59,7 @@
     },
     {
       "name": "shopify-app-orchestrator",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-app-development",
+      "source": "shopify-app-development",
       "description": "Multi-agent task coordinator for full-stack Shopify app features spanning database, API, and UI layers. Coordinates complex workflows and ensures proper integration.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -66,7 +68,7 @@
     },
     {
       "name": "shopify-polaris-ui",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-app-development",
+      "source": "shopify-app-development",
       "description": "Polaris Web Components expert for building Shopify app UIs. Ensures proper component usage, accessibility, and design patterns for React-based Shopify apps.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -75,7 +77,7 @@
     },
     {
       "name": "shopify-database-specialist",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-app-development",
+      "source": "shopify-app-development",
       "description": "Database and Prisma expert for Shopify apps. Handles schema design, migrations, query optimization, and data modeling for app backend.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -84,7 +86,7 @@
     },
     {
       "name": "shopify-api-integration",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-app-development",
+      "source": "shopify-app-development",
       "description": "Shopify Admin GraphQL API expert. Handles API integration, queries, mutations, rate limiting, webhooks, and metafield operations for Shopify apps.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -93,7 +95,7 @@
     },
     {
       "name": "shopify-design-system",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-app-development",
+      "source": "shopify-app-development",
       "description": "Design system compliance expert for Shopify apps. Ensures consistent use of Polaris tokens, color schemes, typography, and spacing.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -102,7 +104,7 @@
     },
     {
       "name": "shopify-pattern-enforcer",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-app-development",
+      "source": "shopify-app-development",
       "description": "Pattern consistency checker for Shopify app codebases. Identifies similar patterns and ensures fixes are applied consistently across the entire codebase.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -111,7 +113,7 @@
     },
     {
       "name": "polaris-component-expert",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-polaris",
+      "source": "shopify-polaris",
       "description": "Polaris Web Components expert with access to full component library. Provides guidance on using actions, forms, feedback, media, structure, and text components.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -120,7 +122,7 @@
     },
     {
       "name": "polaris-forms-specialist",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-polaris",
+      "source": "shopify-polaris",
       "description": "Expert in Polaris form components. Specializes in text fields, checkboxes, selects, file uploads, and form validation patterns.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -129,7 +131,7 @@
     },
     {
       "name": "polaris-layout-specialist",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-polaris",
+      "source": "shopify-polaris",
       "description": "Expert in Polaris layout and structure components. Specializes in pages, cards, grids, stacks, and responsive layouts.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -138,7 +140,7 @@
     },
     {
       "name": "polaris-patterns-expert",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-polaris",
+      "source": "shopify-polaris",
       "description": "Expert in Polaris composition patterns. Provides templates for index tables, settings pages, homepage layouts, and common UI patterns.",
       "version": "1.0.0",
       "author": "Saroj Punde",
@@ -147,7 +149,7 @@
     },
     {
       "name": "polaris-app-bridge-specialist",
-      "source": "sarojpunde/shopify-dev-toolkit-claude-plugins/shopify-polaris",
+      "source": "shopify-polaris",
       "description": "Expert in Shopify App Bridge components. Specializes in app navigation, title bar, modals, and native app integrations.",
       "version": "1.0.0",
       "author": "Saroj Punde",
